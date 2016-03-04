@@ -132,6 +132,9 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+  s.dependency "Parse"
+  s.dependency "SnapKit", "~> 0.15.0"
+  s.dependency "SwiftyJSON", :git => "https://github.com/SwiftyJSON/SwiftyJSON.git"
+  s.dependency "Bond", "~> 4.0"
 
 end
